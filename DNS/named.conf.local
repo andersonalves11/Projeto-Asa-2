@@ -11,7 +11,7 @@ zone "ifrn.asa.br" {
 	allow-query { any; };
 };
 
-zone "1.168.192.in-addr.arpa" {
+zone "2.25.10.in-addr.arpa" {
     type master;
-    file "/etc/bind/db.192.168.1";
+    file "/etc/bind/ifrn.asa.br.10.25.2";
 };
