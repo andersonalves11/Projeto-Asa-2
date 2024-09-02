@@ -11,7 +11,7 @@ $TTL	604800
 ;
 @	IN  	MX 10 mail.parnamirim.ifrn.asa.br.
 @	IN	NS	ns1.parnamirim.ifrn.asa.br.
-ns1	IN		A	10.25.2.100
-mail	IN		A 	10.25.2.100
+ns1	IN		A	10.25.2.101
+mail	IN		A 	10.25.2.101
 www	IN		CNAME	ns1
 
