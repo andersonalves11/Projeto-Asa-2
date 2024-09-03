@@ -15,6 +15,14 @@ services:
     container_name: web02
     networks:
       - asa-network
+  web03:
+    build:
+      context: ./web03
+      dockerfile: Dockerfile
+    image: web03
+    container_name: web03
+    networks:
+      - asa-network    
   proxy:
     build:
       context: ./proxy
@@ -27,6 +35,7 @@ services:
     depends_on:
       - web01
       - web02
+      - web03
       - wordpress
     networks:
       - asa-network 
